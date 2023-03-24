@@ -3,3 +3,9 @@
     src: url(./Font/YouTubeSansDark-Bold.ttf);
     src: url(./Font/YouTubeSansDark-SemiBold.ttf);
 }
+
+@font-face {
+    font-family: GoogleSans;
+    src: url(./Font/ProductSans-Medium.ttf);
+    src: url(./Font/ProductSans-Regular.ttf);
+}
