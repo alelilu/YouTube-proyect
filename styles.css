@@ -1,11 +1,27 @@
-@font-face {
-    font-family: YouTubeSans;
-    src: url(./Font/YouTubeSansDark-Bold.ttf);
-    src: url(./Font/YouTubeSansDark-SemiBold.ttf);
+.your-style1 {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6em;
 }
 
-@font-face {
-    font-family: GoogleSans;
-    src: url(./Font/ProductSans-Medium.ttf);
-    src: url(./Font/ProductSans-Regular.ttf);
+.your-style2 {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+.tag {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.875em;
+}
+
+.suscriptores {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
 }
