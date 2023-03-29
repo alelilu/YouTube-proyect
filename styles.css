@@ -1,0 +1,34 @@
+.your-style1 {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.6em;
+}
+
+.your-style2 {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+.tag {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.875em;
+}
+
+.suscriptores {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.ligas {
+    font-family: 'YouTube Sans Dark';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.875em;
+    color: 3ea6ff;
