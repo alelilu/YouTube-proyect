@@ -189,8 +189,8 @@ body{
 }
 
 .like{
-    height: 2.15rem;
-    width: 5.5rem;
+    height: 2rem;
+    width: 5rem;
     background-color: var(--neutral-70);
     border-radius: 1.5rem;
     border-top-right-radius: 0rem;
@@ -199,7 +199,7 @@ body{
     border-right-style: solid;
     border-right-color: var(--neutral-50);
     border-right-width: 0.1rem;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     font-weight: bolder;
     color: var(--neutral-00);
     padding-left: 1rem;
@@ -208,8 +208,9 @@ body{
     background-position: 0.5rem;
     background-size: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 2rem;
     
 }
 
@@ -218,24 +219,24 @@ body{
 }
 
 .dislike{
-    height: 2.15rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2.75rem;
     background-color: var(--neutral-70);
     border-radius: 1.5rem;
     border-top-left-radius: 0rem;
     border-bottom-left-radius: 0rem;
-    border-style: solid;
+    border-style: none;
     font-size: 0.65rem;
     font-weight: bolder;
     color: var(--neutral-00);
-    padding-left: 1rem;
     background-image: url('dislike.png');
     background-repeat: no-repeat;
     background-position: 0.5rem;
     background-size: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+    padding-left: 2rem;
     
 }
 
@@ -243,3 +244,12 @@ body{
     background-color: var(--neutral-50);
 }
 
+
+.reaction-button{
+    height: 2rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #045A66;
+}
