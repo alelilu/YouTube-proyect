@@ -1,0 +1,72 @@
+<html>
+    <head>
+<link rel="stylesheet" href="styles.css">
+    
+    </head>
+    
+    <body>
+    
+   <div class="menu-container">
+
+    <div class="box-conteiner">
+
+        <ul class="menu-vertical">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Suscripciones</a></li>
+        </ul>
+
+        <ul class="menu-vertical">
+            <li><a href="#">Mi biblioteca</a></li>
+            <li><a href="#">Historial</a></li>
+            <li><a href="#">Mis videos</a></li>
+            <li><a href="#">Ver mas tarde</a></li>
+            <li><a href="#">Videos que me gustan</a></li>
+            <li><a href="#">Mostrar más</a></li>
+        </ul>
+
+        <ul class="menu-vertical">
+            <li class="your-style2">Suscripciones</li>
+            <li><a href="#">Canal 1</a></li>
+            <li><a href="#">Canal 2</a></li>
+            <li><a href="#">Canal 3</a></li>
+            <li><a href="#">Canal 4</a></li>
+            <li><a href="#">Canal 5</a></li>
+            <li><a href="#">Mostrar más</a></li>
+        </ul>
+
+        <ul class="menu-vertical">
+            <li class="your-style2">Explorar</li>
+            <li><a href="#">Tendencias</a></li>
+            <li><a href="#">Música</a></li>
+            <li><a href="#">Peliculas</a></li>
+            <li><a href="#">En directo</a></li>
+            <li><a href="#">Videojuegos</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Deporte</a></li>
+            <li><a href="#">Aprendizaje</a></li>
+        </ul>
+
+        <ul class="menu-vertical">
+            <li class="your-style2">Más de YouTube</li>
+            <li><a href="#">YouTube Premium</a></li>
+            <li><a href="#">YouTube Studio</a></li>
+            <li><a href="#">YouTube Music</a></li>
+            <li><a href="#">YouTube Kids</a></li>
+        </ul>
+
+        <ul class="menu-vertical">
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#">Historial de denuncias</a></li>
+            <li><a href="#">Ayuda</a></li>
+            <li><a href="#">Sugerencias</a></li>
+        </ul>
+
+    </div>
+
+   </div>
+</body>
+
+</head>
+    
+    
