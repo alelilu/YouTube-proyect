@@ -32,3 +32,59 @@
     font-style: normal;
     font-size: 0.875em;
     color: 3ea6ff;
+    
+
+.container{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 225;
+    height: 250;
+    padding: 8px;
+    margin: 4px;
+    background-color: 0%, 0%, 7%;
+    
+}
+
+.enlace{
+    height: 18px;
+    width: 146px;
+    background-color: 255, 255, 255, 0.3;
+    border-radius: 18rem;
+    border-style: none;
+    font-family: 'YouTube Sans Dark';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.875em;
+    color: 3ea6ff;
+    margin: 40px 65px;
+    padding: 0.65rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.enlace:hover{
+    color: 3ea6ff;
+    background-color: 4285F4;
+    opacity: 30%;
+    color: 3ea6ff;
+
+
+}
+
+.img{
+    width: 219;
+    height: 123;
+    border-width: .2px;
+    border-color: b3b3b3 solid;
+
+}
