@@ -88,3 +88,31 @@
     border-color: b3b3b3 solid;
 
 }
+    
+    /* Menu desplegable*/
+
+.menu-container{
+    width: 240px;
+    height: auto;
+    padding: 12px;
+    background-color: #1A1A1A;
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: .90em;
+    
+}
+
+.box-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-vertical >li>a {
+    display: block;
+    padding: 10px 8px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
