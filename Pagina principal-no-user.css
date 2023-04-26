@@ -212,9 +212,37 @@ body{
     background-color: var(--neutral-alpha-light-30);
 }
 
+.access button{
+        height: 1.85rem;
+        width: 5.5rem;
+        background-color: var(--neutral-100);
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: var(--neutral-60);
+        border-width: thin;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: var(--brand-b100);
+        padding-left: 2rem;
+        background-image: url('access.png');
+        background-repeat: no-repeat;
+        background-position: 0.7rem;
+        background-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+.access button:hover{
+    background-color: var(--brand-b40);
+    opacity: 0.6;
+    
+}    
+
 /*Menu principal*/
 
 .menu-principal{
+    width: 12rem;
     height: 34.5rem;
     margin-top: 2rem;
     margin-left: 0rem;
@@ -222,6 +250,8 @@ body{
     position: fixed;
     overflow: auto;
     scrollbar-color: var(--brand-100);
+    
+    
 }
 
 .menu-principal::-webkit-scrollbar {
@@ -338,6 +368,16 @@ body{
     color: var(--neutral-50);
 }
 
+.aviso-menu{
+    font-size: 0.7rem;
+    font-weight: normal;
+    line-height: 150%;
+    color: var(--neutral-00);
+    margin-left: 0.75rem;
+    margin-right: 0.5rem;
+   margin-bottom: 0.75rem;
+    
+}
 
 /*Body*/
 

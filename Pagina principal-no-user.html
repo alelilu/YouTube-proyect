@@ -2,8 +2,8 @@
 
 <title>YouTube</title>
 <head>
-    <link rel="stylesheet" href="Pagina principal.css">
-    <script src="YouTube.js"></script>
+    <link rel="stylesheet" href="Pagina principal-no-user.css">
+    
 </head>
 
 <body>
@@ -33,18 +33,18 @@
         </div>
         <button class="tool" style="background-image: url(microfono.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;"></button>
     </div>    
-        <div id="container"></div>
+        
     <div id="container-navigation">
     <div class="action">
-            <button style="background-image: url(video-mas.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;">               
+            <button style="background-image: url(menu-puntos-vertical.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;">               
             </button>
-           <button style="background-image: url(campana.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;"></button>
-            
-            <button>
-                <img src="perfil.jpg" width="40em" height="40em">
-            </button>
-    </div>    
     </div>
+    <div class="access">
+        <button onclick="location.href='login.html'">Acceder</button>
+    </div>        
+            
+    </div>    
+    
 </div>
 
 
@@ -59,17 +59,16 @@
         </div>
         <button class="menup-button" style="background-image: url(biblioteca.png);">Biblioteca</button>
         <button class="menup-button" style="background-image: url(historial.png);">Historial</button>
-        <button class="menup-button" style="background-image: url(tus\ videos.png);">Tus videos</button>
-        <button class="menup-button" style="background-image: url(ver\ más\ tarde.png);">Ver más tarde</button>
-        <button class="menup-button" style="background-image: url(red-social.png);">Videos que me gustan</button>
-        <button class="menup-button" style="background-image: url(angulo-pequeno-hacia-abajo.png);">Mostrar más</button>
-        <div class="linea-menu">
+        <div class="linea-menu"> 
             <hr>
         </div>
-        <div class="secciones-menu" >Suscripciones</div>
-        <button class="menup-button" style="background-image: url(historial.png);">Inicio</button>
-        <button class="menup-button" style="background-image: url(historial.png);">Inicio</button>
-        <div class="linea-menu">
+        <div class="aviso-menu">
+        <p>Accede para dar “Me gusta” a los videos, realizar comentarios y suscribirte.</p>
+        <div class="access">
+            <button onclick="location.href='login.html'">Acceder</button>
+        </div> 
+        </div>
+        <div class="linea-menu"> 
             <hr>
         </div>
         <div class="secciones-menu" >Explorar</div>
@@ -92,6 +91,7 @@
         <div class="linea-menu">
             <hr>
         </div>
+        
         <button class="menup-button" style="background-image: url(configuracion.png);">Configuración</button>
         <button class="menup-button" style="background-image: url(historial\ denuncias.png);">Historial de denuncia</button>
         <button class="menup-button" style="background-image: url(ayuda.png);">Ayuda</button>

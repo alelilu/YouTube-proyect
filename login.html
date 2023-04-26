@@ -1,0 +1,45 @@
+<html>
+    <title>Inicio de sesión</title>
+    <head>
+        <link rel="stylesheet" href="login.css">
+    </head>
+
+    <body>
+        <div class="login-container">
+            <div class="logo-container">
+                <img src="google-logo.png">
+            </div>
+            <h1>Acceder</h1>
+            <h3>Continuar con YouTube</h3>
+            <input type="text" placeholder="Correo electr&oacute;nico o tel&eacute;fono">
+            <div>
+            <button class="forgot">&iquest;Olvidaste el correo electr&oacute;nico?</button>
+            </div>
+            <div>
+                <h4>&iquest;Esta no es tu computadora? Usa el modo de invitado para navegar de forma privada.
+                    <button class="forgot">M&aacute;s informaci&oacute;n</button>
+                </h4>
+            </div>
+            <div class="button-container">
+                <button class="ghost">Crear cuenta</button>
+                <button class="next" onclick="location.href='password.html'">Siguiente</button>
+            </div>
+        </div>
+        <div class="footer-login">
+            <div class="list">
+                <input list="Idiomas" placeholder="Espanol (Latinoamerica)">
+                <datalist id="Idiomas">
+                    <option value="Español (Latinoamerica)" />
+                    <option value="English" />
+                    <option value="Filipino" />
+                    <option value="Indonesia" />
+                    <option value="Italiano" />
+                </datalist>
+            </div>
+            <button onclick="location.href='https://support.google.com/accounts?hl=es-419&visit_id=638174412448100052-2779894638&rd=2&p=account_iph#topic=3382296'">Ayuda</button>
+            <button onclick="location.href='https://policies.google.com/privacy?gl=MX&hl=es-419'">Privacidad</button>
+            <button onclick="location.href='https://policies.google.com/terms?gl=MX&hl=es-419'">Condiciones</button>
+
+        </div>    
+    </body>
+</html>
