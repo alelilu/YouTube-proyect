@@ -1,0 +1,109 @@
+body{
+    padding-top: 0rem;
+    padding-left: 0rem;
+    margin: 0em;
+    font-family: sans-serif;
+    background-color: var(--neutral-100);
+}
+
+.your-style1 {
+    font-family: 'Roboto, Arial', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.your-style2 {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.tag {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.85rem;
+    color: #ffffff;
+
+}
+
+.suscriptores {
+    font-family: 'YouTube Sans Dark';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.ligas {
+    font-family: 'YouTube Sans Dark';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.875em;
+    color: #3ea6ff;
+}
+    
+
+.container{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-ofertas{
+    width: auto;
+    height: auto;
+    padding-top: 4rem;
+}
+
+.box{
+    width: 225;
+    height: 250;
+    margin: 4px;
+    padding: .5rem;
+    background-color: 0%, 0%, 7%;
+    
+}
+
+.enlace{
+    height: 18px;
+    width: 146px;
+    background-color: 255, 255, 255, 0.3;
+    border-radius: 18rem;
+    border-style: none;
+    font-family: 'YouTube Sans Dark';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    color: 3ea6ff;
+    margin: 40px 65px;
+    padding: 0.65rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.enlace:hover{
+    color: #3ea6ff;
+    background-color: #4286f464;
+
+
+}
+
+.img{
+    width: 219;
+    height: 123;
+    border-width: .02rem;
+    border-color: #b3b3b3b4;
+
+}
+
