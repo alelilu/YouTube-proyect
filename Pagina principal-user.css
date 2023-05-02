@@ -431,7 +431,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
     
 }
 
@@ -490,7 +490,7 @@ div:hover .videos .info .datos-principales button{
     background-color: var(--neutral-100);
     display: flex;
     justify-content: space-between;
-    transition: all 800ms ease;
+    transition: all 50ms ease;
 }
 
 .videos .info p{
@@ -633,7 +633,8 @@ div:hover .shortp-menu{
         align-items:center;
         background-color: var(--neutral-100);
         margin-top: 0rem;
-        margin-left: 2rem;
+        padding-left: 2rem;
+        padding-right: 1.93rem;
         position: fixed;
        
     }
@@ -700,4 +701,76 @@ div:hover .shortp-menu{
     
     .round-next:hover{
         background-color: var(--neutral-80);
+    }
+
+
+    /*Streams*/
+
+    .stream-container{
+        height: 19rem;
+        width: 100%;
+        background-color: var(--neutral-00);
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+        padding-left: 4rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stream-container h3{
+        font-size: 1.25rem;
+        font-family: sans-serif;
+        color: var(--neutral-100);
+        margin: 1rem;
+        margin-left: 0rem;
+    }
+
+    .videos-s-cont{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .videos-stream{
+        height: 10rem;
+        width: 12rem; 
+        background: var(--neutral-00);
+        margin:1rem;
+        margin-left: 0rem;
+        border-radius: 0rem;   
+    }
+    
+    
+    .videos-stream .photo{
+        background-color: var(--brand-20);
+        height: 7rem;
+        overflow: hidden;
+        border-radius: 0rem;
+        
+    }
+
+    .videos-stream h6{
+        font-size: 0.65rem;
+        font-family: sans-serif;
+        font-weight:bold;
+        color: var(--neutral-80);
+        margin-top: 0.5rem;
+    }
+
+    .ghost-stream{
+        height: 2rem;
+        width: 10rem;
+        background-color: var(--neutral-00);
+        border-radius: 1.5rem;
+        border-style: solid;
+        border-width: thin;
+        border-color: var(--neutral-100);
+        font-size: 0.7rem;
+        font-weight: bolder;
+        color: var(--neutral-100);
+        padding: 0.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
