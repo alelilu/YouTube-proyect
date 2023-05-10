@@ -1,0 +1,393 @@
+:root{
+    --brand-100: #F61C0D;
+    --brand-80: #C4302B;
+    --brand-60: #DB4437;
+    --brand-40: #E57368;    
+    --brand-20: #ED9D97;
+
+    --brand-b100: #196AEF;
+    --brand-b80: #4285F4;
+    --brand-b60: #76A7FA;
+    --brand-b40: #A0C3FF;
+    --brand-b20: #DEF1FF;
+
+    --neutral-00: #ffffff;
+    --neutral-10: #ECECF0;
+    --neutral-20: #E1E1E8;
+    --neutral-40: #8A8A9C;
+    --neutral-50: #3F3F56;
+    --neutral-60: #2B2B42;
+    --neutral-70: #1C1C28;
+    --neutral-80: #11111E;
+    --neutral-100: #0c0c0f;
+
+    --success-50: #7AD475;
+    --success-100: #28A745;
+    --success-200: #095E15;
+
+    --warning-50: #FFCF7A;
+    --warning-100: #FFC107;
+    --warning-200: #A17600;
+
+    --danger-50: #B283EA;
+    --danger-100: #9933CC;
+    --danger-200: #590B70;
+
+    --info-50: #6BDCDE;
+    --info-100: #17A2B8;
+    --info-200: #045A66;
+   
+    --nautral-alpha-light-10: rgba(255, 255, 255, 0.1);
+    --neutral-alpha-light-30: rgba(255, 255, 255, 0.3);
+    --neutral-alpha-light-50: rgba(255, 255, 255, 0.5);
+    --neutral-alpha-light-60: rgba(255, 255, 255, 0.6);
+    --neutral-alpha-light-80: rgba(255, 255, 255, 0.8);
+    --neutral-alpha-light-90: rgba(255, 255, 255, 0.9);
+
+    --neutral-alpha-dark-00: rgba(0, 0, 0, 0.0);
+    --neutral-alpha-dark-10: rgba(0, 0, 0, 0.1);
+    --neutral-alpha-dark-30: rgba(0, 0, 0, 0.3);
+    --neutral-alpha-dark-50: rgba(0, 0, 0, 0.5);
+    --neutral-alpha-dark-70: rgba(0, 0, 0, 0.7);
+    --neutral-alpha-dark-90: rgba(0, 0, 0, 0.9);
+
+    --neutral-alpha-blue-80: #4285F4;
+    --neutral-alpha-blue-60: #76A7FA;
+
+}
+
+body{
+    padding: 0em;
+    margin: 0em;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--neutral-100)
+}
+
+h1{font-size: 6rem;}
+
+h2{font-size: 4rem;}
+
+h3{font-size: 3rem;}
+
+h4{font-size: 2rem;}
+
+h5{font-size: 1.5rem;}
+
+h6{font-size: 1.25rem;}
+
+h7{font-size: .90rem;}
+
+h8{font-size: .75rem;}
+
+/* Navigation bar */
+
+.navigation-bar{
+    background-color: var(--neutral-100);
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+#container-navigation{
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+#container-search{
+    height: 2.1rem;
+    width: 38rem;
+    display: flex;
+    justify-content: space-between;
+    
+}    
+    
+
+.container{
+    display: flex;
+    align-self: center;
+}
+
+
+.search{
+    height: 2.5rem;
+    width: 35rem;
+    background-color: var(--neutral-100);
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.search input{
+    height: 1rem;
+    width: 25rem;
+    border-bottom-left-radius: 10rem;
+    border-top-left-radius: 10rem;
+    border: 0.75px;
+    border-style: solid;
+    border-color: var(--neutral-60);
+    background-color: var(--neutral-100);
+    padding: 0.95rem;
+    color: var(--neutral-40);
+    font-size: 0.85rem;
+
+}
+
+.search input:focus{
+    height: 1rem;
+    width: 26.5rem;
+    outline: none;
+    border-bottom-left-radius: 10rem;
+    border-top-left-radius: 10rem;
+    border: 0.75px;
+    border-style: solid;
+    border-color: var(--brand-b100);
+    background-color: var(--neutral-100);
+    padding: 0.95rem;
+    padding-left: 2.5rem;
+    color: var(--neutral-40);
+    font-size: 0.85rem;
+    background-image: url('busqueda.png');
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: .75rem;
+}
+
+.search button{
+    height: 1.99rem;
+    width: 3.25rem;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    background-color: var(--neutral-80);
+    border: 0.75px;
+    border-left-style: none ;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--neutral-60);
+    color: var(--neutral-00);
+    
+}
+
+.action button{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10rem;
+    position: static;
+    background-color: var(--neutral-100);
+    color: var(--neutral-00);
+    border-style: none;
+    margin-left: 0.3rem;
+    overflow: hidden;
+    padding: 0rem;
+}
+
+.tool{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10rem;
+    position: static;
+    background-color: var(--neutral-90);
+    border-style: none;
+    margin-left: 0.3rem;
+    overflow: hidden;
+    padding: 0rem;
+    }
+
+.tool:hover{
+    background-color: var(--neutral-80);
+    }
+
+.navigation-bar .action button:hover{
+    background-color: var(--neutral-alpha-light-30);
+}
+
+
+/*banner*/
+
+.banner-style{
+    width: auto;
+    height: 80px;
+    padding-left: 84px;
+    padding-bottom: 14px;
+    padding-top: 72px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.img-profile{
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+}
+
+.encabezado{
+    width: 320px;
+    height: 80px;
+    color: var(--neutral-00);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*Titulo secciones*/
+
+.titulo{
+    width: 90%;
+    height: 56px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: var(--neutral-40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*Ventana pelicula*/
+
+.Poster{
+width: 202px;
+height: 302px;
+background-color: var(--brand-40);
+border-radius: 4px;
+background-image: url();
+padding: 4px;
+display: flex;
+flex-wrap: wrap;
+justify-content: end;
+background-size: cover;
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.iconos{
+    width: 30px;
+    height: 30px;
+    background-color: var(--neutral-alpha-dark-70);
+    border-radius: 4px;
+    padding: 2px;
+    margin-bottom: 2px;
+    transition: none;
+}
+
+.iconos:active{
+    background-color: var(--neutral-100);
+    background-image: url(añadido.svg);
+}
+
+.informacion{
+    width: 202px;
+    height: 51px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.alquiler{
+    width: 202px;
+    height: 16px;
+    padding: 4px;
+    margin-bottom: 16px;
+    background-color: var(--neutral-100);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.compra{
+    width: auto;
+    height: 14px;
+    padding: 2px;
+    border-radius: 2px;
+    margin-right: 4px;
+    background-color: var(--neutral-60);
+    color: var(--success-100);
+}
+
+.clasificacion{
+    width: auto;
+    height: 14px;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: var(--neutral-60);
+    color: var(--neutral-20);
+
+}
+
+.tiempo{
+    width: 43px;
+    height: 13px;
+    padding: 4px;
+    background-color: var(--neutral-alpha-dark-70);
+    border-radius: 2px;
+    color: var(--neutral-00);
+
+}
+
+.pelicula-comp{
+    width: auto;
+    height: auto;
+    padding-top: 8px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lista-peliculas{
+    width: 100%;
+    height: 396px;
+    color: var(--neutral-00);
+    padding-top: 64px;
+    padding-left: 84px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+
+/*Botones*/
+
+.boton-ver{
+    width: auto;
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--neutral-100);
+    border-radius: 18px;
+    border-style: none;
+    color: var(--brand-b100);
+}
+
+.boton-ver:hover{
+    background-color: var(--neutral-alpha-blue-60);
+}
