@@ -743,7 +743,10 @@ div:hover .shortp-menu{
     
     
     .videos-stream .photo{
-        background-color: var(--brand-20);
+        background-image: url(stream.jpg);
+        background-repeat: no-repeat;
+        background-size: 12rem;
+
         height: 7rem;
         overflow: hidden;
         border-radius: 0rem;

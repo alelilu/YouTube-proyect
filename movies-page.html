@@ -1,0 +1,425 @@
+<html>
+
+<title>YouTube</title>
+<head>
+    <link rel="stylesheet" href="movies-page.css">
+    <script src="YouTube.js"></script>
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    
+<div class="navigation-bar">
+       
+    
+    <div id="container-navigation">    
+        <div class="action">
+            <button>
+                <img src="menu-h.png" width="20em" height="20em">
+            </button>
+        </div>
+        <div class="container">
+            <img src="Logotipo.png" width="87em" height="20em">
+        </div>
+    </div>  
+    <div id="container-search">
+        <div class="search">
+            <input type="text" placeholder="Buscar">
+            <button onclick="location.href='resultados.html'">
+                <img src="busqueda.png" width="20em" height="20em">
+            </button>
+            
+        </div>
+        <button class="tool" style="background-image: url(microfono.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;"></button>
+    </div>    
+        <div id="container"></div>
+    <div id="container-navigation">
+    <div class="action">
+            <button style="background-image: url(video-mas.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;">               
+            </button>
+           <button style="background-image: url(campana.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;"></button>
+            
+            <button>
+                <img src="perfil.jpg" width="40em" height="40em">
+            </button>
+    </div>    
+    </div>
+</div>
+
+
+    <!--Menu desplegable-->
+<div class="menu-principal">
+    <div class="menu-container">
+        <button class="menup-button" style="background-image: url(home.png);">Principal</button>
+        <button class="menup-button" style="background-image: url(shorts.png);">Shorts</button>
+        <button class="menup-button" style="background-image: url(suscripciones.png);">Suscripciones</button>
+        <div class="linea-menu">
+            <hr>
+        </div>
+        <button class="menup-button" style="background-image: url(biblioteca.png);">Biblioteca</button>
+        <button class="menup-button" style="background-image: url(historial.png);">Historial</button>
+        <button class="menup-button" style="background-image: url(tus\ videos.png);">Tus videos</button>
+        <button class="menup-button" style="background-image: url(ver\ más\ tarde.png);">Ver más tarde</button>
+        <button class="menup-button" style="background-image: url(red-social.png);">Videos que me gustan</button>
+        <button class="menup-button" style="background-image: url(angulo-pequeno-hacia-abajo.png);">Mostrar más</button>
+        <div class="linea-menu">
+            <hr>
+        </div>
+        <div class="secciones-menu" >Suscripciones</div>
+        <button class="menup-button" style="background-image: url(historial.png);">Inicio</button>
+        <button class="menup-button" style="background-image: url(historial.png);">Inicio</button>
+        <div class="linea-menu">
+            <hr>
+        </div>
+        <div class="secciones-menu" >Explorar</div>
+        <button class="menup-button" style="background-image: url(tendencias.png);">Tendencias</button>
+        <button class="menup-button" style="background-image: url(historial.png);">Música</button>
+        <button class="menup-button" style="background-image: url(historial.png);">Películas</button>
+        <button class="menup-button" style="background-image: url(en\ vivo.png);">En vivo</button>
+        <button class="menup-button" style="background-image: url(videojuegos.png);">Videojuegos</button>
+        <button class="menup-button" style="background-image: url(noticias.png);">Noticias</button>
+        <button class="menup-button" style="background-image: url(deportes.png);">Deportes</button>
+        <button class="menup-button" style="background-image: url(aprendizaje.png);">Aprendizaje</button>
+        <div class="linea-menu">
+            <hr>
+        </div>
+        <div class="secciones-menu">Más de YouTube</div>
+        <button class="menup-button" style="background-image: url(historial.png);">YouTube Premium</button>
+        <button class="menup-button" style="background-image: url(historial.png);">YouTube Studio</button>
+        <button class="menup-button" style="background-image: url(historial.png);">YouTube Music</button>
+        <button class="menup-button" style="background-image: url(historial.png);">YouTube Kids</button>
+        <div class="linea-menu">
+            <hr>
+        </div>
+        <button class="menup-button" style="background-image: url(configuracion.png);">Configuración</button>
+        <button class="menup-button" style="background-image: url(historial\ denuncias.png);">Historial de denuncia</button>
+        <button class="menup-button" style="background-image: url(ayuda.png);">Ayuda</button>
+        <button class="menup-button" style="background-image: url(comentario.png);">Envíar comentarios</button>
+        <div class="linea-menu">
+            <hr>
+        </div>
+        <div class="footer-menu">
+            <div class="footer-links">
+                <a href="">Acerca de</a>
+                <a href="">Prensa</a>
+                <a href="">Derechos de autor</a>
+                <a href="">Comunicarte con nosotros</a>
+                <a href="">Creadores</a>
+                <a href="">Anunciar</a>
+                <a href="">Desarrolladores</a>
+            </div>
+            <div class="footer-links">
+                <a href="">Condiciones</a>
+                <a href="">Privacidad</a>
+                <a href="">Políticas y seguridad</a>
+                <a href="">Cómo funciona YouTube</a>
+                <a href="">Prueba funciones nuevas</a>
+            </div>
+    
+            <div class="footer-copyright">
+                <p>© 2023 Google LLC</p>
+            </div>    
+        </div>
+    
+    </div>
+</div>
+
+    <!--movies-->
+
+<div class="movies-container">
+    <div class="movies-headline">
+        <div class="movies-texto">
+            <div class="movies-titulo">Películas y programas de TV</div> 
+            <div class="movies-subtitulo">Mira los éxitos más recientes y populares</div> 
+        </div>
+    </div>
+    <div class="movies-menu">
+        <button class="movies-ghost">EXPLORAR</button>
+        <button class="movies-ghost">COMPRADOS</button>
+    </div>
+    <hr>
+
+    <!--lista-->
+
+    <div class="movies-secciones">Películas recomendadas para ti</div>
+
+        <div class="lista-movies">
+
+            <div class="moviess-principal">
+                <div class="moviesp-player">
+                </div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr>        
+
+    <div class="movies-secciones">Más vendidos</div>
+
+        <div class="lista-movies">
+
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr>        
+
+    <div class="movies-secciones">Novedades para alquilar</div>
+
+        <div class="lista-movies">
+
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="moviess-principal">
+                <div class="moviesp-player"></div>
+                <div class="moviesp-second">
+                    <div class="moviesp-info">
+                        <div class="moviesp-titulo">Título de la película</div>
+                        <div class="moviesp-genero">
+                            <p>Drama</p>
+                            <p>•</p>
+                            <p>2020<p>
+                        </div>
+                        <div class="moviesp-etiquetas">
+                            <div class="moviesp-action">Comprar o alquilar</div>
+                            <div class="moviesp-clas">A</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr>        
+            
+</div>
