@@ -1,0 +1,234 @@
+<html>
+    <title>Reproducción de peliculas</title>
+    <head>
+        <link rel="stylesheet" href="Reproductor-peliculas.css">
+    </head>
+
+    <body>
+         <!--Navigation bar-->
+    
+<div class="navigation-bar">
+       
+    
+    <div id="container-navigation">    
+        <div class="action">
+            <button>
+                <img src="menu-h.png" width="20em" height="20em">
+            </button>
+        </div>
+        <div class="container">
+            <img src="Logotipo.png" width="87em" height="20em">
+        </div>
+    </div>  
+    <div id="container-search">
+        <div class="search">
+            <input type="text" placeholder="Buscar">
+            <button onclick="location.href='resultados.html'">
+                <img src="busqueda.png" width="20em" height="20em">
+            </button>
+            
+        </div>
+        <button class="tool" style="background-image: url(microfono.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;"></button>
+    </div>    
+        <div id="container"></div>
+    <div id="container-navigation">
+    <div class="action">
+            <button style="background-image: url(video-mas.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;">               
+            </button>
+           <button style="background-image: url(campana.png); background-repeat:no-repeat; background-size: 1rem; background-position: center;"></button>
+            
+            <button>
+                <img src="perfil.jpg" width="40em" height="40em">
+            </button>
+    </div>    
+    </div>
+</div>
+
+
+<!--Ventana de reproduccion-->
+
+<div class="reproductor-container">
+
+    <div class="pantalla-style">
+
+        <div class="barra-reproduccion">
+            <button class="barra-button">
+                <img src="reproducir.svg" alt="">
+            </button>
+
+            <button class="barra-button">
+                <img src="volumen.svg" alt="">
+            </button>
+
+            <button class="tempo-button" style="padding-right: 172px;">
+                <h8>0:00 / 0:00</h8>
+            </button>
+
+            <button class="barra-button">
+                <img src="traducir.svg" alt="">
+            </button>
+
+            <button class="barra-button">
+                <img src="configuracion-bar.svg" alt="">
+            </button>
+
+            <button class="barra-button">
+                <img src="minireproductor.svg" alt="">
+            </button>
+
+            <button class="barra-button">
+                <img src="modocine.svg" alt="">
+            </button>
+
+            <button class="barra-button">
+                <img src="vertv.svg" alt="">
+            </button>
+
+            <button class="barra-button">
+                <img src="pantallafull.svg" alt="">
+            </button>
+
+        </div>
+    </div>
+
+
+    <!--Seccion alquilar-->
+
+<div class="alquiler-content">
+
+    <div class="titulo-alquiler">
+        <h6>Ver en YouTube</h6>
+    </div>
+
+    <div class="informacion-pelicula">
+        <img class="mini-poster" src="mariobros.jpeg" alt="">
+        <h6 class="info-interior">Titulo película
+            <br> <h8 style="font-weight: lighter;">Género · Año · Duración</h8>
+            <br> <h8 style="font-weight: lighter;">Idioma</h8>
+            <div class="alquiler">
+                <h8 style="font-weight: lighter;" class="clasificacion">AA</h8>
+                <h8 style="font-weight: lighter;" class="compra">Subtítulos</h8>
+            </div>
+        </h6>
+    </div>
+
+    <div class="button-content">
+        <button class="button-alquilar">
+            <h7>Comprar o alquilar</h7>
+        </button>
+    </div>
+
+    <div class="sinopsis">
+        <p>
+            <h7>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in excepturi nesciunt sunt molestiae alias. Adipisci modi, soluta dicta eaque delectus voluptatum. Quo recusandae reprehenderit, nostrum deleniti qui soluta aut?</h7>
+        </p>
+    </div>
+
+    <div class="mostrar-button">
+        <h7>MOSTRAR MÁS</h7>
+    </div>
+</div>
+
+</div>
+
+
+<!--Box-->
+<div class="big-box">
+
+    <!--Seccion Botones-->
+
+<div class="contenido-pelicula">
+
+    <div class="clase-container">
+        <h6> Título de la película
+            <div class="alquiler">
+                <h8 style="font-weight: normal;" class="comprar">Comprar o alquilar</h8>
+                <h8 style="font-weight: normal;" class="clasificaciones">AA</h8>
+            </div>
+        </h6>
+    </div>
+
+    <div class="youtube-info">
+        <img class="img-profile" src="peliculas_profile.png" alt="">
+
+        <div class="youtube-info">
+            <h7>Películas YouTube
+                <br><h8>166 M de suscriptores</h8>
+            </h7>
+
+            <button class="suscripcion-button">Suscribirme</button>
+
+            <div class="likedis-container">
+                <button class="like-button">0,00K</button>
+                <button class="dislike-button"></button>
+            </div>
+            
+            <button class="compartir-button">Compartir</button>
+            <button class="guardar-button">Guardar</button>
+            <button class="mas-button"></button>
+        </div>
+    </div>
+
+
+    <div class="info-desarrollo">
+        <div class="sinopsis-box">
+            <p>
+                <h7>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam fugit vel! Voluptatibus magni enim corporis ipsam tenetur dolore ullam doloremque ad, tempora ducimus distinctio ipsa libero minima accusantium architecto!
+                </h7>
+            </p>
+        </div>
+
+        <div>
+            <li class="lista-datos">
+                <h7>
+                    Proveedor 
+                    <br> Clasificacion
+                    <br>Fecha de <br>publicación
+                    <br>Duración
+                    <br>Audio
+                    <br>Subtítulos
+                </h7>
+        </div>
+    </div>
+   
+</div>
+
+<!--box de beneficios-->
+
+<div class="beneficios-container">
+
+    <div class="beneficios-box">
+
+        <div class="titulo-alquiler">
+            <h6>Beneficios de compra</h6>
+        </div>
+
+        <div class="info-beneficios">
+
+            <img src="barra-18.svg" alt="">
+
+    </div>
+
+    <div class="text-box">
+        <h6>750</h6>
+        <h6>1000</h6>
+    </div>
+
+    <div class="descripcion-compra">
+        <p>
+            <h7>
+                Con la siguiente compra alcanzarás un nuevo nivel que te ofrece mejores beneficios.
+            </h6>
+        </p>
+
+        <button class="descubre-button">
+            Descubre más
+        </button>
+    </div>
+
+</div>
+</div>
+
+    </body>
+</html>
